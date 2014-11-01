@@ -1,7 +1,7 @@
 function [ img_out ] = Boundary( img_in, SE )
 %Boundary is used to get the contour of purticular part of an image
 %you can use the same idea on color images
-%
+%Author:Mingjun Li
 %img_in is one layer gray(logical 0&1) data
 %SE is the structuring element, such as "9" , "+"
 
