@@ -1,7 +1,7 @@
 function img_out = Erosion(img_in, SE)
 %Erosion is used to shrink purticular part of an image
 %you can use the same idea on color images
-%
+%Author:Mingjun Li
 %img_in is one layer gray(logical 0&1) data
 %SE is the structuring element, such as "9" , "+"
 %   "9"      %    "+"
