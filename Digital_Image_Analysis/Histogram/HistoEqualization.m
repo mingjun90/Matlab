@@ -1,7 +1,7 @@
 function [ img_out ] = HistoEqualization( img_in )
 %Histogram is a discrete representaton of the distribution 
 %on the quantized pixel attributes
-%
+%Author:Mingjun Li
 
 %%%%%%%%%%%%%%%%%%%%%%_histogram_%%%%%%%%%%%%%%%%%%%%%%%%%%%
     [rows cols] = size(img_in);
