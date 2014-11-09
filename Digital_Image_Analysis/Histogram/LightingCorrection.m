@@ -1,7 +1,7 @@
 function [ img_linear, img_quadric ] = LightingCorrection( img_in )
 %Lighting correction: correct the lighting by tilting the image
 %Author:Mingjun Li
-    [rows cols] = size(img_in);
+    [rows, cols] = size(img_in);
 %%%%%%%%%%%%%%%%%%%%%%_linear_%%%%%%%%%%%%%%%%%%%%%%%%%%%
     a=-0.15;b=0.15;
     c=256-b*cols;
